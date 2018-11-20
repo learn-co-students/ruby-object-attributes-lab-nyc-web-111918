@@ -1,18 +1,18 @@
 class Person
-  def name
-    @name
+  def name #This is a reader
+    @name #instance variable that is whatever your make it.
   end
 
-  def name=(persons_name)
+  def name=(persons_name) #This is a writer
     @name = persons_name
   end
 
-  def jobs
-    @jobs
+  def job #reader
+    @job
   end
 
-  def jobs=(persons_job)
-    @jobs = persons_job
+  def job=(persons_job) #writer
+    @job = persons_job #your are redefining your inst variable
   end
 
 end #end of class method
